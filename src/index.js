@@ -23,6 +23,7 @@ class App extends Component {
     return color;
   }
 
+  // update state w/circles base on input num
   _drawCircles(circleNum) {
     this.setState({ circleNum });
     let circles = [];
