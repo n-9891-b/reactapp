@@ -3,21 +3,14 @@ import ReactDOM from 'react-dom';
 import Input from './components/input';
 
 // root component
-class App extends Component {
-  constructor(props) {
-    super(props);
+const App = () => {
 
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div>
-        <label>Input the number of circles:</label>
-        <Input />
-      </div>
-    );
-  }
+  return (
+    <div>
+      <label>Input the number of circles:</label>
+      <Input />
+    </div>
+  );
 }
 
 ReactDOM.render(<App />, document.querySelector('.container'));
