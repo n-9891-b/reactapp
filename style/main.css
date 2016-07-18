@@ -1,5 +1,23 @@
+.circleInput {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 22px;
+}
+
+.inputBox {
+  width: 100px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
 .svg-el {
-  border: 1px solid blue;
+  border: 3px solid blue;
+  width: 1000px;
+  height: 600px;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
 }
 
 .circle:hover {
