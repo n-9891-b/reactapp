@@ -6,7 +6,7 @@ class Circle extends Component {
     super(props);
 
     this.state = {}
-    this._dragmove = this._dragmove.bind(this);
+    this._dragmove = this._dragmove.bind(this); //this must be bound, else refs doesn't know the component is the this value
   }
 
   // attach drag functionality after mounting
@@ -25,7 +25,7 @@ class Circle extends Component {
 
   render() {
     return (
-      <circle ref="myCircle" className="circle" cx={this.props.cx} cy={this.props.cy} r="30" style={{fill: this.props.sty}}></circle>
+      <circle ref="myCircle" className="circle" cx={this.props.cx} cy={this.props.cy} r="30" style={{fill: this.props.style}}></circle>
     )
   }
 }
