@@ -1,4 +1,6 @@
+// webpack taken from Steven Grider
 module.exports = {
+  devtool: 'source-map',
   entry: [
     './src/index.js'
   ],
