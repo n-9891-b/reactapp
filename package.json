@@ -2,12 +2,11 @@
   "name": "reactapp",
   "version": "1.0.0",
   "description": "",
-  "main": "component.js",
+  "main": "input.js",
   "dependencies": {
     "babel-preset-stage-1": "^6.5.0",
     "d3": "^4.1.1",
     "react": "^15.2.1",
-    "react-d3-library": "^1.1.7",
     "react-dom": "^15.2.1"
   },
   "devDependencies": {
